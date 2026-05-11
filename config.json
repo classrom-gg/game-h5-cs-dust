@@ -1,0 +1,71 @@
+{
+  "name": "cs-dust",
+  "app_id": "cs-dust",
+  "cdn_base": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-cs-dust@main/cs-dust/",
+  "urls": {
+    "dataUrl": "Build/webgl.data",
+    "frameworkUrl": "Build/build.framework.js",
+    "codeUrl": "Build/build.wasm",
+    "loader": "Build/CSDust.loader.js"
+  },
+  "files": {
+    "build.framework.js": {
+      "cdn_path": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-cs-dust@main/cs-dust/Build\\build.framework.js",
+      "local_path": "Build\\build.framework.js",
+      "size": 426030,
+      "size_mb": 0.41,
+      "needs_chunk": false
+    },
+    "build.wasm": {
+      "cdn_path": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-cs-dust@main/cs-dust/Build\\build.wasm",
+      "local_path": "Build\\build.wasm",
+      "size": 35560272,
+      "size_mb": 33.91,
+      "needs_chunk": true
+    },
+    "CSDust.loader.js": {
+      "cdn_path": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-cs-dust@main/cs-dust/Build\\CSDust.loader.js",
+      "local_path": "Build\\CSDust.loader.js",
+      "size": 13076,
+      "size_mb": 0.01,
+      "needs_chunk": false
+    },
+    "webgl.data": {
+      "cdn_path": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-cs-dust@main/cs-dust/Build\\webgl.data",
+      "local_path": "Build\\webgl.data",
+      "size": 89311812,
+      "size_mb": 85.17,
+      "needs_chunk": true
+    }
+  },
+  "chunks_needed": [
+    {
+      "filename": "build.wasm",
+      "path": "Build\\build.wasm",
+      "size_mb": 33.91,
+      "chunks": 2
+    },
+    {
+      "filename": "webgl.data",
+      "path": "Build\\webgl.data",
+      "size_mb": 85.17,
+      "chunks": 5
+    }
+  ],
+  "large_files": [
+    {
+      "path": "c:\\Users\\ngocl\\Desktop\\game h5 github\\games\\cs-dust\\Build\\build.wasm",
+      "relative_path": "Build\\build.wasm",
+      "size": 35560272,
+      "size_mb": 33.91,
+      "needs_chunk": true
+    },
+    {
+      "path": "c:\\Users\\ngocl\\Desktop\\game h5 github\\games\\cs-dust\\Build\\webgl.data",
+      "relative_path": "Build\\webgl.data",
+      "size": 89311812,
+      "size_mb": 85.17,
+      "needs_chunk": true
+    }
+  ]
+}
